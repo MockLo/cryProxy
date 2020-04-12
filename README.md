@@ -1,22 +1,13 @@
-# cryapi
+# CryProxy
 
-> An electron-vue project
+> 一个网络代理客户端，based on AnyProxy。
 
-#### Build Setup
+### 功能
+1. 网络抓包：提供类似Charles、Fiddler的网络代理功能进行抓包。
+2. 数据拦截：支持修改请求、响应，也可以对特定请求进行本地映射。
+3. Mock：针对特定请求（正则匹配）进行Mock响应。
+4. Throttle：模拟网速限制。
 
-``` bash
-# install dependencies
-npm install
+![init page](./static/img/WX20200412-121744.png)
 
-# serve with hot reload at localhost:9080
-npm run dev
-
-# build electron application for production
-npm run build
-
-
-```
-
----
-
-This project was generated with [electron-vue](https://github.com/SimulatedGREG/electron-vue) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
+![init page](./static/img/WX20200412-122919.png)
